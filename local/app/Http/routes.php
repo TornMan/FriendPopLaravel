@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard');
-});
+Route::get('/', 'DashboardController@index');
 
 Route::get('/dashboard', 'DashboardController@index');
 Route::get('/oncall', 'OncallController@index');
