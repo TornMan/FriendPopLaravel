@@ -18,6 +18,9 @@
           <link href="css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
           <link href="css/plugins/timeline/timeline.css" rel="stylesheet">
 
+          <!-- Page-Level Plugin CSS - Tables -->
+          <link href="css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+
           <!-- SB Admin CSS - Include with every page -->
           <link href="css/sb-admin.css" rel="stylesheet">
 
@@ -25,6 +28,18 @@
           <link href="dist/handsontable.full.css" media="screen" rel="stylesheet" data-jsfiddle="common">
 
     </head>
+
+
+
+
+
+
+
+
+
+
+
+
     <body>
       <div id="wrapper">
 
@@ -95,10 +110,12 @@
       </div>
     </div>
         <!-- Core Scripts - Include with every page -->
-
+        <script src="js/jquery-1.10.2.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
 
+        <script src="js/plugins/dataTables/jquery.dataTables.js"></script>
+        <script src="js/plugins/dataTables/dataTables.bootstrap.js"></script>
         <!-- Page-Level Plugin Scripts - Dashboard -->
         <!-- <script src="js/plugins/morris/raphael-2.1.0.min.js"></script>
         <script src="js/plugins/morris/morris.js"></script> -->
@@ -108,6 +125,14 @@
 
         <!-- Page-Level Demo Scripts - Dashboard - Use for reference -->
         <!-- <script src="js/demo/dashboard-demo.js"></script> -->
+
+        <script>
+        $(document).ready(function() {
+            $('#dataTables-example').dataTable();
+        });
+        </script>
+
+
 
     </body>
 
