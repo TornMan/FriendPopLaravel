@@ -67,19 +67,19 @@
                 <ul class="nav" id="side-menu">
 
                     <li>
-                      <a href="/sample/public/dashboard"><i class="fa fa-edit fa-fw"></i>Dashboard</a>
+                      <a href="{{ url('/dashboard') }}"><i class="fa fa-edit fa-fw"></i>Dashboard</a>
                     </li>
 
 
                     <li>
-                        <a href="/sample/public"><i class="fa fa-dashboard fa-fw"></i>On call schedule</a>
+                        <a href="{{ url('/oncall') }}"><i class="fa fa-dashboard fa-fw"></i>On call schedule</a>
                     </li>
 
                     <li>
-                        <a href="/sample/public/home"><i class="fa fa-table fa-fw"></i>Employee management</a>
+                        <a href="{{ url('/employee') }}"><i class="fa fa-table fa-fw"></i>Employee management</a>
                     </li>
                     <li>
-                        <a href="/sample/public/home"><i class="fa fa-edit fa-fw"></i>Department management</a>
+                        <a href="{{ url('/department') }}"><i class="fa fa-edit fa-fw"></i>Department management</a>
                     </li>
 
 

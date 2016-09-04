@@ -12,13 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/home', function () {
-    return view('home');
-});
-
-Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+Route::get('/dashboard', 'DashboardController@index');
+Route::get('/oncall', 'OncallController@index');
+Route::get('/employee', 'EmployeeController@index');
+Route::get('/department', 'DepartmentController@index');
+
+
+
+
+
