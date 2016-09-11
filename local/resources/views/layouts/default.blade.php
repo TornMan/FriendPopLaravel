@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>VTOP Oncall</title>
         <script src="js/jquery-1.10.2.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-          <title>Start Bootstrap - SB Admin Version 2.0 Demo</title>
 
           <!-- Core CSS - Include with every page -->
           <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -51,14 +49,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">SB Admin v2.0</a>
+            <a class="navbar-brand" href="index.html">VTOP Oncall Management</a>
         </div>
         <!-- /.navbar-header -->
 
+<!--
         <ul class="nav navbar-top-links navbar-right">
-
-
-<!-- header -->
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                     <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
@@ -74,6 +70,8 @@
                 </ul>
             </li>
         </ul>
+-->
+
 <!-- end header -->
 
 <!-- sidebar -->
