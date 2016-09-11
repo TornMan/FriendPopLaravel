@@ -5,8 +5,6 @@
     <input type="text" id="department_name" />
     <input type="button" class="btn" id="add_department" value="Add Department" />
 
-
-
 <script>
     $("#add_department").click(function(){
         //alert($("#department_name").val());
