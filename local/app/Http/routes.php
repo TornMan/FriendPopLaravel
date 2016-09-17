@@ -17,10 +17,10 @@ Route::get('/dashboard', 'DashboardController@index');
 Route::get('/oncall', 'OncallController@index');
 Route::post('/update/oncall', 'OncallController@update');
 
-
-
 Route::get('/employee', 'EmployeeController@index');
-Route::get('/department', 'DepartmentController@index');
 
+Route::get('/department', 'DepartmentController@index');
+Route::get('/get/department', 'DepartmentController@getDepartment');
 Route::post('/add/department', 'DepartmentController@store');
-Route::delete('/department', 'DepartmentController@delete');
+Route::post('/edit/department', 'DepartmentController@update');
+Route::post('/delete/department', 'DepartmentController@delete');

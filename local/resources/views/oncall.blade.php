@@ -13,7 +13,6 @@ Month : <select id='select_month'></select>
 <!-- /.row -->
 
 <div id="example"></div>
-<input id="save_data" type="button" value="Save Data" />
 
 <script>
     function create_select_year(){

@@ -3,7 +3,7 @@
     <head>
         <title>VTOP Oncall</title>
         <script src="js/jquery-1.10.2.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <!--<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">-->
 
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
